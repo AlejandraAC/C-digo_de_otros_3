@@ -56,7 +56,7 @@ const botonDeFiltro = document.querySelector("button");
 
 
 //Se crea una función para cuando se de click en el botón
-botonDeFiltro.onclick = function () {  //se cambió la declaración de la función
+botonDeFiltro.onclick = function () {  
 
   // Obtiene el valor del input pedido al usuario
   const texto = inputFiltro.value.toLowerCase(); //añadimos el método para convertirlo a minusculas
